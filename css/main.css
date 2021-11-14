@@ -32,7 +32,20 @@ header {
      margin-left: 40px;
      font-family: 'Suez one',serif;
  }
-
+ .title__container{
+     display: flex;
+     /*justify-content: center;*/
+     /*align-items: center;*/
+     margin-top: 300px;
+     flex-direction: column;
+     width: 100%;
+ }
+ .title__container .title {
+     font-size: 60px;
+ }
+.title__container .subtitle {
+    font-size: 40px;
+}
  @media (min-width: 701px) {
      #logo {
          float: left;
@@ -89,6 +102,7 @@ header.fixed #logo{
 /* Главный блок сайта */
 
 #top {
+    display: flex;
     width: 100%;
     background-image: url("https://cdn.decoist.com/wp-content/uploads/2020/08/Charming-tropical-style-home-office-in-black-with-custom-wooden-decor-98299.jpg");
     background-blend-mode: multiply ; /* Можем наложить несколько слоёв на один блок */
@@ -125,9 +139,6 @@ header.fixed #logo{
 }
 
 
-#top h1 {
-    padding-top: 20%;
-}
 #top h3 {
     color: #cccccc;
 }
